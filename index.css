@@ -1,0 +1,57 @@
+body {
+  margin: 50px 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 0 0 rgb(78, 78, 78);
+  text-border: 5px;
+  background: linear-gradient(0.25turn, #6d6ecf, #12043a);
+  font-size: 30px;
+}
+
+#valor {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: Helvetica;
+}
+
+.cep {
+  width: 350px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 12px;
+}
+
+img{
+  background-color: black;
+}
+
+.imagem {
+  width: 145px;
+  height: 145px;
+  border-color: rgb(230, 230, 230);
+}
+
+div {
+  text-align:center;
+}
+
+input {
+  height: 50px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  width: 170px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* <-- Aparentemente, algumas margens ainda estão lá, apesar de estar ocultas */
+}
+
+button {
+  height: 30px;
+  border-radius: 5px;
+}
